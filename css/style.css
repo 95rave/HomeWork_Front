@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --customFont: "Open Sans", sans-serif;
+}
+body {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+.general {
+  padding: 60px 60px;
+  opacity: 0.8;
+  background-image: linear-gradient(45deg, #7c82fa 0%, #74daff 100%);
+}
+.container {
+  max-width: 350px;
+  margin: auto;
+}
+.general .singin {
+  opacity: 0.902;
+  width: 440px;
+  height: 493px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
+  background-color: #ffffff;
+  margin: 0 auto 15px;
+  padding: 30px;
+}
+
+.general .singin h1 {
+  font: bold 24px var(--customFont);
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+.general .singin label {
+  opacity: 0.8;
+  font: bold 14px var(--customFont);
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+.general label ::placeholder {
+  opacity: 0.902;
+  font: 300 18px var(--customFont);
+  color: #555555;
+}
+.general .singin input {
+  opacity: 0.702;
+  width: 350px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.7019607843137254);
+  border: 1px solid #d8d8d8;
+  margin-bottom: 15px;
+}
+.general .check {
+  margin: 15px 0;
+}
+.general .check label {
+  font: bold 12px var(--customFont);
+  line-height: 20px;
+  color: #8b8b8b;
+}
+.general .check input {
+  width: 15px;
+  height: 15px;
+  border-radius: 6px;
+  background-color: #04a9f4;
+}
+.general .check a {
+  font: bold 12px var(--customFont);
+  line-height: 20px;
+  color: #04a9f4;
+  text-align: right;
+  float: right;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.general .check button {
+  width: 352px;
+  height: 55px;
+  border-radius: 4px;
+  filter: drop-shadow(0px 3px 0px #0075aa);
+  background-color: #0896d7;
+}
+
+.buttons .facebook {
+  width: 170px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #3162a2;
+  font: bold 14px var(--customFont);
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.buttons .twitter {
+  width: 170px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #00aaf4;
+  font: bold 14px var(--customFont);
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
