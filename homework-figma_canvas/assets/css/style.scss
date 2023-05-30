@@ -1,0 +1,774 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$mainFont: "Poppins", sans-serif;
+$SecondryFont: "Inter", sans-serif;
+$MainColor: #ff3939;
+$SecondColor: #fff;
+header {
+  background-color: black;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 10px;
+      .main-left {
+        display: flex;
+        gap: 10px;
+        h1 {
+          font-family: $SecondryFont;
+          font-weight: 300;
+          color: white;
+          font-size: 32px;
+        }
+      }
+      .main-right {
+        nav {
+          display: flex;
+          ul {
+            display: flex;
+            gap: 40px;
+
+            li {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              font-family: $mainFont;
+              a {
+                text-decoration: none;
+                color: #868686;
+              }
+              button {
+                width: 100px;
+                height: 40px;
+                border: none;
+                background-color: #ff3939;
+                border-radius: 4px;
+                font-family: $mainFont;
+                color: #fff;
+                cursor: pointer;
+                a {
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#home {
+  background-image: url("/assets/image/graphic-designers-meeting.png");
+  background-size: cover;
+  background-color: black;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .home {
+      text-align: center;
+      padding-top: 180px;
+      .welcome {
+        font-family: $mainFont;
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+        span {
+          color: #ff3939;
+        }
+      }
+      h1 {
+        text-transform: capitalize;
+        font-family: $mainFont;
+        font-size: 60px;
+        font-style: 700;
+        line-height: 128%;
+        letter-spacing: 3px;
+        color: #fff;
+      }
+      img {
+        margin-left: 107px;
+      }
+      .home-info {
+        color: #fff;
+        font-family: $mainFont;
+        font-size: 14px;
+        margin: 25px 25px;
+      }
+      .home-btn {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        margin-top: 40px;
+        padding-bottom: 180px;
+        .home-btn1 {
+          width: 150px;
+          height: 40px;
+          border: none;
+          border-radius: 4px;
+          background-color: #ff3939;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+        .home-btn2 {
+          width: 150px;
+          height: 40px;
+          border: none;
+          border-radius: 4px;
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+#about {
+  width: 100%;
+  position: relative;
+  padding-bottom: 160px;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .about {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      gap: 250px;
+      .about-left {
+        .left-img1 {
+          width: 348px;
+          height: 350px;
+          position: relative;
+        }
+        .left-img2 {
+          position: absolute;
+          width: 286px;
+          height: 310px;
+          top: 155px;
+          left: 400px;
+        }
+      }
+      .about-right {
+        .right {
+          font-family: $mainFont;
+          font-size: 16px;
+          text-align: center;
+
+          span {
+            color: #ff3939;
+            font-family: $mainFont;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+        h1 {
+          font-family: $mainFont;
+          font-size: 40px;
+          line-height: 60px;
+          margin: 18px 0px 25px 0px;
+          span {
+            color: #ff3939;
+          }
+        }
+        .right-info {
+          font-family: $mainFont;
+          font-size: 15px;
+          // border: 3px solid #ff2cbf ;
+          height: 233px;
+          width: 480px;
+        }
+        button {
+          background-color: #ff3939;
+          border: none;
+          width: 160px;
+          height: 44px;
+          border-radius: 3px;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+#services {
+  background-color: #202020;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .services {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 90px 0px 100px 0px;
+      .services-left {
+        .services-p1 {
+          font-family: $mainFont;
+          font-style: bold;
+          font-size: 16px;
+          color: $SecondColor;
+        }
+        span {
+          color: #ff3939;
+          font-family: $mainFont;
+          font-style: bold;
+          font-size: 13px;
+        }
+        h1 {
+          font-family: $mainFont;
+          font-size: 47px;
+          color: $SecondColor;
+          width: 500px;
+          span {
+            font-family: $mainFont;
+            font-size: 47px;
+            font-style: Bold;
+            color: #ff3939;
+          }
+        }
+        .services-p2 {
+          color: $SecondColor;
+          margin: 18px 0px 30px 0px;
+          width: 400px;
+          letter-spacing: 1px;
+        }
+        button {
+          background-color: #ff3939;
+          border: none;
+          width: 160px;
+          height: 44px;
+          border-radius: 3px;
+          a {
+            text-decoration: none;
+            color: $SecondColor;
+          }
+        }
+      }
+      .services-right {
+        .right-logo {
+          .logo-up {
+            display: flex;
+            gap: 30px;
+            .card-1 {
+              border: none;
+              background: $SecondColor;
+              border-radius: 3px;
+              width: 250px;
+              height: 150px;
+              text-align: center;
+              font-family: $mainFont;
+              font-size: 13px;
+              position: relative;
+              h6 {
+                font-family: $mainFont;
+                font-size: 13px;
+                font-weight: bold;
+                margin-top: 50px;
+              }
+              img {
+                background-color: $MainColor;
+                padding: 11px;
+                border-radius: 37px;
+                position: absolute;
+                bottom: 78%;
+                right: 38%;
+              }
+            }
+          }
+          .logo-down {
+            display: flex;
+            gap: 30px;
+            margin-top: 70px;
+            .card-2 {
+              border: none;
+              border-radius: 3px;
+              background: $SecondColor;
+              width: 250px;
+              height: 150px;
+              text-align: center;
+              font-family: $mainFont;
+              font-size: 13px;
+              position: relative;
+              h6 {
+                font-family: $mainFont;
+                font-size: 13px;
+                font-weight: bold;
+                margin-top: 50px;
+              }
+              img {
+                background-color: $MainColor;
+                padding: 11px;
+                border-radius: 37px;
+                position: absolute;
+                bottom: 78%;
+                right: 38%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#portfolio {
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .portfolio {
+      padding: 80px 0px 90px 0px;
+      .portfolio-top {
+        text-align: center;
+        .portfolio-p {
+          font-family: $mainFont;
+          color: #696969;
+          font-family: 13px;
+        }
+        h1 {
+          font-family: $mainFont;
+          font-size: 48px;
+
+          text-align: center;
+          span {
+            color: $MainColor;
+            font-size: 48px;
+          }
+        }
+      }
+
+      .portfolio-bottom {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        margin: 40px 0px 52px 0px;
+        .all {
+          background-color: #ff3939;
+          padding: 6px 29px;
+          color: $SecondColor;
+          font-family: $mainFont;
+          font-weight: 14px;
+          border-radius: 4px;
+        }
+        .ui {
+          background-color: #f2f2f2;
+          padding: 6px 32px;
+          font-family: $mainFont;
+          font-weight: 14px;
+          border-radius: 8px;
+        }
+        .d-ment {
+          background-color: #f2f2f2;
+          padding: 6px 32px;
+          font-family: $mainFont;
+          font-weight: 14px;
+          border-radius: 4px;
+        }
+        .mobile {
+          background-color: #f2f2f2;
+          padding: 6px 32px;
+          font-family: $mainFont;
+          font-weight: 14px;
+          border-radius: 4px;
+        }
+        .seo {
+          background-color: #f2f2f2;
+          padding: 6px 32px;
+          font-family: $mainFont;
+          font-weight: 14px;
+          border-radius: 4px;
+        }
+      }
+      .portfolio-bottom {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        .img-1 {
+          width: 280px;
+          height: 330px;
+        }
+        .img-2 {
+          width: 300px;
+          height: 400px;
+        }
+        .img-3 {
+          width: 280px;
+          height: 330px;
+        }
+      }
+    }
+  }
+}
+
+#testimonials {
+  background-color: #202020;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .testimonials {
+      .testimonials-top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+        .top-left {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-family: $mainFont;
+          font-size: 18px;
+          color: $SecondColor;
+          span {
+            font-family: $mainFont;
+            color: $MainColor;
+          }
+          img {
+            height: 1.5px;
+          }
+        }
+      }
+      h1 {
+        font-family: $mainFont;
+        color: $SecondColor;
+        font-size: 40px;
+        margin-top: 14px;
+        margin-bottom: 60px;
+        span {
+          color: $MainColor;
+        }
+      }
+
+      .testimonials-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        .botom {
+          border-radius: 4px;
+          text-align: center;
+          font-family: $mainFont;
+          font-size: 10px;
+          background-color: $SecondColor;
+          width: 290px;
+          height: 190px;
+          position: relative;
+
+          .ellipse {
+            background-color: $MainColor;
+            padding: 23px;
+            border-radius: 33px;
+            position: absolute;
+            bottom: 55%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+          }
+          h6 {
+            font-family: $mainFont;
+            font-size: 12px;
+            margin: 44px 0px 8px 0px;
+          }
+          .custumer {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#faqs {
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .faqs {
+      margin: 100px 0px 100px 0px;
+      .faq {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        height: 1px;
+        align-items: center;
+      }
+      h1 {
+        font-family: $mainFont;
+        margin: 26px 0px 45px 0px;
+        font-size: 44px;
+        text-align: center;
+        span {
+          color: $MainColor;
+        }
+      }
+      .boxs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .box-head {
+          width: 700px;
+          padding: 20px;
+          background-color: #202020;
+          color: $SecondColor;
+          font-family: $mainFont;
+          font-size: 13px;
+          border-radius: 3px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .box-info {
+          width: 700px;
+          font-family: $mainFont;
+          font-size: 13px;
+          background-color: #fff;
+          padding: 20px;
+        }
+        .box {
+          width: 700px;
+          height: 50px;
+          padding: 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: 3px;
+          margin-top: 20px;
+          background-color: #f1f1f1;
+        }
+      }
+    }
+  }
+}
+
+#contact {
+  background-color: #f1f1f1;
+  padding-top: 80px;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      .left-top {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-family: $mainFont;
+        color: $MainColor;
+        font-size: 18px;
+        font-weight: 700;
+
+        img {
+          height: 1.5px;
+        }
+      }
+      h1 {
+        font-family: $mainFont;
+        font-size: 40px;
+        span {
+          color: $MainColor;
+        }
+      }
+      p {
+        width: 400px;
+        height: 70px;
+        padding: 8px;
+        color: #696969;
+        margin: 15px 0px 15px 0px;
+      }
+      form {
+        input {
+          margin-bottom: 20px;
+          margin-top: 10px;
+          width: 380px;
+          height: 50px;
+          padding: 10px;
+          border-radius: 4px;
+          border: none;
+          &::placeholder {
+            font-family: $mainFont;
+            color: #202020;
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+        textarea {
+          padding: 8px;
+          margin-bottom: 20px;
+          border: none;
+          &::placeholder {
+            font-family: $mainFont;
+            color: #202020;
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+        button {
+          background-color: $MainColor;
+          border: none;
+          padding: 10px 16px 10px 16px;
+          border-radius: 4px;
+          margin-bottom: 50px;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+      .contact-right {
+        position: relative;
+        img {
+          max-width: 100%;
+          position: absolute;
+          width: 520px;
+          height: 660px;
+          bottom: 20px;
+          left: 45%;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #202020;
+  padding-top: 60px;
+  .container {
+    max-width: 1120px;
+    margin: auto;
+    .footer {
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 70px;
+        .left-top {
+          .canvas {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+          }
+          h3 {
+            color: $SecondColor;
+          }
+          p {
+            width: 320px;
+            color: $SecondColor;
+            margin: 30px 0px 25px 0px;
+            color: c8c8c8;
+            font-family: $mainFont;
+            font-size: 13px;
+          }
+          .logo {
+            display: flex;
+            gap: 10px;
+            svg {
+              width: 22px;
+              height: 18px;
+              background-color: $MainColor;
+              border-radius: 10px;
+            }
+          }
+        }
+        .right-top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 120px;
+          .services {
+            h3 {
+              font-family: $mainFont;
+              color: $SecondColor;
+              font-size: 16px;
+            }
+            ul {
+              li {
+                list-style-type: none;
+                margin: 10px 0px 10px 0px;
+                color: #c8c8c8;
+                font-family: $mainFont;
+                font-size: 13px;
+              }
+            }
+          }
+          .resources {
+            h3 {
+              font-family: $mainFont;
+              color: $SecondColor;
+              font-size: 16px;
+            }
+            ul {
+              li {
+                list-style-type: none;
+                margin: 10px 0px 10px 0px;
+                color: #c8c8c8;
+                font-family: $mainFont;
+                font-size: 13px;
+              }
+            }
+          }
+          .contact {
+            h3 {
+              font-family: $mainFont;
+              color: $SecondColor;
+              font-size: 16px;
+            }
+            ul {
+              li {
+                list-style-type: none;
+                margin: 10px 0px 20px 0px;
+                color: #c8c8c8;
+                font-family: $mainFont;
+                font-size: 13px;
+                display: flex;
+                gap: 8px;
+              }
+            }
+          }
+        }
+      }
+      img {
+        width: 100%;
+      }
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        padding-bottom: 40px;
+        .bottom-left {
+          font-family: $mainFont;
+          font-size: 14px;
+          color: #c8c8c8;
+        }
+        .bottom-right {
+          ul {
+            display: flex;
+            gap: 25px;
+            li {
+              list-style-type: none;
+
+              a {
+                color: #c8c8c8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
