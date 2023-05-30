@@ -268,14 +268,7 @@ header .container .header .main-right nav ul li button a {
   font-weight: bold;
   margin-top: 50px;
 }
-#services
-  .container
-  .services
-  .services-right
-  .right-logo
-  .logo-up
-  .card-1
-  img {
+#services .container .services .services-right .right-logo .logo-up .card-1 img {
   background-color: #ff3939;
   padding: 11px;
   border-radius: 37px;
@@ -299,27 +292,13 @@ header .container .header .main-right nav ul li button a {
   font-size: 13px;
   position: relative;
 }
-#services
-  .container
-  .services
-  .services-right
-  .right-logo
-  .logo-down
-  .card-2
-  h6 {
+#services .container .services .services-right .right-logo .logo-down .card-2 h6 {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: bold;
   margin-top: 50px;
 }
-#services
-  .container
-  .services
-  .services-right
-  .right-logo
-  .logo-down
-  .card-2
-  img {
+#services .container .services .services-right .right-logo .logo-down .card-2 img {
   background-color: #ff3939;
   padding: 11px;
   border-radius: 37px;
@@ -352,14 +331,14 @@ header .container .header .main-right nav ul li button a {
   color: #ff3939;
   font-size: 48px;
 }
-#portfolio .container .portfolio .portfolio-bottom {
+#portfolio .container .portfolio .portfolio-bottom-top {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
   margin: 40px 0px 52px 0px;
 }
-#portfolio .container .portfolio .portfolio-bottom .all {
+#portfolio .container .portfolio .portfolio-bottom-top .all {
   background-color: #ff3939;
   padding: 6px 29px;
   color: #fff;
@@ -367,28 +346,28 @@ header .container .header .main-right nav ul li button a {
   font-weight: 14px;
   border-radius: 4px;
 }
-#portfolio .container .portfolio .portfolio-bottom .ui {
+#portfolio .container .portfolio .portfolio-bottom-top .ui {
   background-color: #f2f2f2;
   padding: 6px 32px;
   font-family: "Poppins", sans-serif;
   font-weight: 14px;
   border-radius: 8px;
 }
-#portfolio .container .portfolio .portfolio-bottom .d-ment {
+#portfolio .container .portfolio .portfolio-bottom-top .d-ment {
   background-color: #f2f2f2;
   padding: 6px 32px;
   font-family: "Poppins", sans-serif;
   font-weight: 14px;
   border-radius: 4px;
 }
-#portfolio .container .portfolio .portfolio-bottom .mobile {
+#portfolio .container .portfolio .portfolio-bottom-top .mobile {
   background-color: #f2f2f2;
   padding: 6px 32px;
   font-family: "Poppins", sans-serif;
   font-weight: 14px;
   border-radius: 4px;
 }
-#portfolio .container .portfolio .portfolio-bottom .seo {
+#portfolio .container .portfolio .portfolio-bottom-top .seo {
   background-color: #f2f2f2;
   padding: 6px 32px;
   font-family: "Poppins", sans-serif;
@@ -765,4 +744,4 @@ footer .container .footer .footer-bottom .bottom-right ul li {
 }
 footer .container .footer .footer-bottom .bottom-right ul li a {
   color: #c8c8c8;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
