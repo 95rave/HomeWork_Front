@@ -1,0 +1,46 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f2f2f2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  width: 100%;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.col-6 {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#carDetails {
+  margin-top: 1rem;
+}
+
+.car-background.volvo {
+  background-color: #c2d9ff;
+}
+
+.car-background.bmw {
+  background-color: #ffc2b3;
+}
+
+.car-background.audi {
+  background-color: #c2ffc2;
+}
